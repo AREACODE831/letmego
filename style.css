@@ -123,15 +123,16 @@ img#rt {
   margin: 4px 2px;
   cursor: pointer;
 }
-/* DEMO-SPECIFIC STYLES */
+
+/* Inprogress in making types to animate with anime.js or typed.js */
 .typewriter h1 {
   color: #fff;
   font-family: monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
   animation:
     typing 3.5s steps(30, end),
     blink-caret 5s ;
@@ -139,23 +140,23 @@ img#rt {
 .typewriter h2 {
   color: white;
   font-family: monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 500solid yellow; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 200 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  overflow: hidden;
+  border-right: 500solid yellow;
+  white-space: nowrap;
+  margin: 200 auto;
+  letter-spacing: .15em;
   animation:
     typing 6s steps(30, end),
     blink-caret .5s step-end infinite;
 }
 
-/* The typing effect */
+
 @keyframes typing {
   from { width: 0 }
   to { width: 60% }
 }
 
-/* The typewriter cursor effect */
+
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
