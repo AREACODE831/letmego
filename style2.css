@@ -9,6 +9,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  background: #c7cbd7;
 }
 canvas {
   display: block;
@@ -19,7 +20,21 @@ p{
   font-family: 'Major Mono Display', monospace;}
 }
 
-
+#btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 120px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 50px;
+    background: #fff;
+    border-radius: 40px;
+    font-size: 1.4em;
+    color: black;
+    z-index: 10000;
+}
 .button {
   background-color: #F1A7F2;
   border: none;
@@ -31,4 +46,8 @@ p{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+.locat {
+  margin-top:50px;
+  margin-bottom:10px;
 }
