@@ -13,6 +13,7 @@ html, body {
 }
 canvas {
   display: block;
+  left:50%;
 }
 
 p{
