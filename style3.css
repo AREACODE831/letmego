@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+/* -------- Global -------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  height:100% !important;
+}
+
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1{
+  color: white;
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
+
+}
+
+
+/* ---- section 1 - top ---- */
+
+.section1 {
+    height: 400px;
+    position: relative;
+}
+
+.section1 img {
+  position: absolute;
+  bottom: 0;
+  top:80px;
+}
+
+.gate img {
+  position: absolute;
+  left: 800px;
+  top: 1px;
+  width: 300px;
+  height: auto;
+
+}
+
+/* --- walk cycle -- */
+
+.walking {
+  background: url("img/walkcycle.png") 0 0 no-repeat;
+  height: 133px;
+  width: 91px;
+  position: absolute;
+  bottom: 55px;
+  transform: translateZ(0);
+  animation: walking 1.2s 2s steps(4) 20, across 24s linear 2s both;
+}
+
+@keyframes walking {
+  0% {background-position: 0 0; }
+  100% {background-position: -364px 0; }
+}
+
+@keyframes across {
+  0% { left: 0%; }
+  100% { left: 94%; }
+}
