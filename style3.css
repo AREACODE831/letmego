@@ -22,7 +22,12 @@ h1{
 
 }
 
+p {
+  color: white;
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
 
+}
 /* ---- section 1 - top ---- */
 
 .section1 {
