@@ -69,7 +69,7 @@ animation
 
 .add({
     targets: '#btn6',
-    marginRight: -200,
+    marginRight: -300,
     duration: 1000,
     easing: 'easeInOutBack'
 })
