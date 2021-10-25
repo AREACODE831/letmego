@@ -35,12 +35,15 @@ let names = [{
   name: "Da Nang",
 
 }, {
+  name: "Jeju"
 }, {
   name: "Shanghai",
 
 }, {
-  name: "Kuala Lumpur",
+  name: "London",
 
+}, {
+  name: "Kuala Lumpur",
 }];
 
 let randomIndex;
