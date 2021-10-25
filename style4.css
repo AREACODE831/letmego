@@ -111,10 +111,11 @@ img#rt {
 
 #btn {
     position: absolute;
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 120px;
+    margin-top: 280px;
     text-decoration: none;
     display: inline-block;
     padding: 8px 50px;

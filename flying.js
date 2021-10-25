@@ -27,11 +27,13 @@ animation
 })
 
 
+
+
 .add({
-    targets: '#text1',
-    marginRight: 0,
+    targets: '#att',
+    top: '0px',
     duration: 1000,
-    easing: 'easeInOutBack'
+    easing: 'easeInOutSine'
 })
 
 .add({
