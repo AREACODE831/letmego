@@ -19,7 +19,7 @@ function draw() {
   image(img, 150, 175, 150, 220);
   rect(0, mouseY, 400, 10);
   fill(255,0,0);
-   if (300 < mouseX && mouseY > 250) {
+   if (0 < mouseX && mouseY > 250) {
     fill(0,255,0);
     textSize(20);
     fill(0, 255, 0);
