@@ -1,36 +1,46 @@
 let names = [{
   name: "Incheon",
-  //word: "hey"
+
 }, {
   name: "Orly",
-  //word: "love you"
+
 }, {
   name: "Milan",
-  //word: "sweet"
+
 }, {
   name: "Sapporo",
-  //word: "my friend!"
+
 }, {
   name: "Lisbon",
-  //word: "super!"
+
 }, {
   name: "Dubai",
-  //word: "wonderful"
+
 }, {
   name: "Lima",
-  //word: "I'm down"
+
 }, {
   name: "Taipei",
-  //word: "you can do it"
+
 }, {
   name: "Amsterdam",
-  //word: "wanna go get some coffee?"
+
 }, {
   name: "Athens",
-  //word: "bless you"
+
+}, {
+  name: "Vancouver",
+
+}, {
+  name: "Da Nang",
+
+}, {
+}, {
+  name: "Shanghai",
+
 }, {
   name: "Kuala Lumpur",
-  //word: "chao"
+
 }];
 
 let randomIndex;

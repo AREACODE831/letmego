@@ -97,9 +97,15 @@ rect(0, mouseY+100, width*2, 0.3);
   textSize(10);
   fill(0, 255, 0);
   textFont('Orbitron');
-  text('Please place your mouse cursor on Searching Scanner,', 300, 25);
-  text('and try to match your face on the scanner.', 300, 50);
-  text('When you are ready, double click the canvas to capture and continue', 300, 75);
+  text(',uǝǝq ǝʌɐɥ noʎ ǝɹǝɥʇ ɹoɟ pɹɐʍʎʞs-- pǝuɹnʇ sǝʎǝ ɹnoʎ ɥʇıʍ ɥʇɹɐǝ ǝɥʇ ʞlɐʍ ɹǝʌǝɹoɟ llıʍ noʎ --ʇɥɓılɟ pǝʇsɐʇ ---ǝʌɐɥ noʎ--- ǝɔuO“', 300, 25);
+  text('ıɔuıΛ ɐᗡ opɹɐuoǝ˥ -”uɹnʇǝɹ oʇ ɓuol ----sʎɐʍlɐ llı--ʍ noʎ --ǝɹǝɥʇ puɐ', 300, 50);
+  text('≋“≋L≋i≋f≋e≋-≋-≋-≋ ≋i≋s≋ ≋s≋h≋o≋r≋t≋ ≋-≋-≋-≋-≋-≋-≋-≋-≋a≋n≋d≋ ≋t≋h≋e≋ ≋w≋o≋r≋l≋d≋ ≋i≋s≋ ≋-≋-≋-≋w≋i≋d≋e≋.≋”≋', 300, 75);
+  text('moo|dɿɘb|iᎮ ɘiɿɘʜƆ -".ɘʞɒwɒ ɘɿ’uoʏ ᴎɘʜw-- ᴎɘqqɒʜ ꙅmɒɘɿb ƚꙅɘd --ɘʜT“', 300, 90);
+  text(',ɥɔslɐM plɐuoᗡ ǝlɐǝN - ”ǝuoz ʇɹoɟɯoɔ ɹn-oʎ ɟo puǝ ǝɥʇ ---ʇ-ɐ suıɓǝq ---ǝɟı˥“', 300, 115);
+  text('“Wₕₑᵣₑᵥₑᵣ ₋₋yₒᵤ g₋ₒ bₑc₋ₒₘₑₛ ₐ ₚₐᵣₜ ₒf yₒ₋₋ᵤ ₛₒₘₑₕₒw.” ₋ ₐₙᵢₜₐ Dₑₛₐᵢ', 300, 140);
+  text('oɓ uɐɔ-- ǝuo ɹɐɟ--- ʍoɥ ʇno puıɟ ʎlqıssod ----uɐɔ ɹɐɟ ooʇ ɓuıoɓ --ʞsıɹ oɥʍ -ǝsoɥʇ ----ʎluO“” - ᖶ.S. ᘿᒪᓰᓍᖶ', 300, 165);
+  text('≋“≋T≋h≋e≋ ≋-≋-≋-≋-≋j≋o≋u≋r≋n≋e≋y≋-≋-≋-≋-≋ ≋i≋t≋s≋e≋l≋f≋ ≋i≋s≋ ≋m≋y≋-≋-≋-≋ ≋h≋o≋m≋e≋.≋”≋ ≋-≋ ≋M≋a≋t≋s≋u≋o≋ ≋B≋a≋s≋h≋o≋', 300, 190);
+
 }
 
 
