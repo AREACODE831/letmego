@@ -15,7 +15,9 @@ canvas {
   display: block;
   left:50%;
 }
-
+h2 {
+  font-size:15px;
+}
 p{
   color: black;
   font-family: 'Major Mono Display', monospace;}

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Homemade+Apple&family=Major+Mono+Display&family=Orbitron:wght@400;500&family=Rajdhani&display=swap');
 
 * {
     margin: 0;
@@ -95,6 +96,31 @@ img#rt {
     font-weight: 700;
 }
 
+#text1 {
+  position: absolute;
+  color: hotpink;
+  font-size: 60px;
+  font-weight: 200;
+  margin-right: -2500px;
+}
+
+#text2 {
+  position: absolute;
+  color: grey;
+  font-size: 30px;
+  font-weight: 200;
+  margin-right: -3000px;
+  margin-left: 10px;
+}
+#text3 {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+  margin-right: -3000px;
+  margin-top: 20px;
+}
+
 #btn {
     position: absolute;
     top: 50%;
@@ -111,6 +137,50 @@ img#rt {
     z-index: 10000;
 }
 
+#btn2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-top: 120px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 50px;
+  background: #fff;
+  border-radius: 40px;
+  font-size: 20px;
+  color: black;
+  margin-right: -3500px;
+  z-index: 10000;
+}
+
+#btn5 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-top: 500px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 50px;
+  background: #fff;
+  border-radius: 40px;
+  font-size: 20px;
+  color: black;
+  margin-right: -3500px;
+  z-index: 10000;
+}
+
+#btn6 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 50px;
+  background: #fff;
+  border-radius: 40px;
+  font-size: 15px;
+  color: black;
+  margin-right: -3500px;
+  z-index: 10000;
+}
 
 .button {
   background-color: #F1A7F2;
@@ -125,40 +195,38 @@ img#rt {
   cursor: pointer;
 }
 
-/* Inprogress in making types to animate with anime.js or typed.js */
-.typewriter h1 {
-  color: #fff;
-  font-family: monospace;
-  overflow: hidden;
-  border-right: .15em solid orange;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .15em;
-  animation:
-    typing 3.5s steps(30, end),
-    blink-caret 5s ;
+p {
+  font-family: 'Fjalla One', sans-serif;
 }
-.typewriter h2 {
-  color: white;
-  font-family: monospace;
-  overflow: hidden;
-  border-right: 500solid yellow;
-  white-space: nowrap;
-  margin: 200 auto;
-  letter-spacing: .15em;
-  animation:
-    typing 6s steps(30, end),
-    blink-caret .5s step-end infinite;
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Fjalla One', sans-serif;
+
 }
 
+.typing {
+  width: 25ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  font-family: 'Fjalla One', sans-serif;
+}
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 60% }
+  from {
+    width: 0
+  }
 }
 
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }

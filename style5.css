@@ -1,0 +1,76 @@
+body {
+      background: #c7cbd7;
+    }
+p {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#sketchbook{
+  /* margin-top:1; */
+}
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+.typing {
+  width: 25ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 30px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+#btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 120px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 50px;
+    background: #fff;
+    border-radius: 40px;
+    font-size: 1.4em;
+    color: black;
+    z-index: 10000;
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+
+.button {
+  background-color: #F1A7F2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Major Mono Display', monospace;
+
+}

@@ -130,6 +130,20 @@ img#rt {
 }
 
 
+#btn6 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-top: 120px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 50px;
+  background: #fff;
+  border-radius: 40px;
+  font-size: 20px;
+  color: black;
+  margin-right: -3500px;
+  z-index: 10000;
+}
 .button {
   background-color: #F1A7F2;
   border: none;

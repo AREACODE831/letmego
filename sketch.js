@@ -44,7 +44,6 @@ function setup() {
 function draw() {
    tint(255, 0, 0)
    image(video, 0, 0);
-
    image(video, 0, 0, 320, 240);
    image(hold, 400,0);
 
@@ -94,7 +93,6 @@ rect(0, mouseY+100, width*2, 0.3);
   fill(0, 255, 0);
   textFont('Orbitron');
   text('Searching...', 100, 30);
-
 
   textSize(10);
   fill(0, 255, 0);
@@ -165,5 +163,21 @@ function event(){
   textFont('Orbitron');
   text('Searching...', 100, 30);
 
+
+}
+
+function keyTyped() {
+
+  if (key === 's') {
+    saveCanvas('fileName', 'png');
+    // value = 0;
+  } else if (key === 'c') {
+
+    clear();
+
+
+  }
+
+  return false;
 
 }

@@ -4,26 +4,20 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Let Me Go</title>
+
   </head>
   <body>
-    <div class="wrapper">
-      <div class="typing">
-        <p>Good afternoon :)</p>
-        <p>Are you checking in?</p>
-      </div>
-  </div>
+  <script src="checkin.js"></script>
+
+  <div class="wrapper">
+    <div class="typing">
+      <p>Do you have a photo-ID?</p>
+    </div>
+</div>
     <br>
     <br><br><br>
     <p>yes</p><input type="checkbox" name="next" id="next" value="1" onclick="return next();"/>
     <p>no</p><input type="checkbox" name="next" id="next" value="1" onclick="return next();"/>
-    <script>
-            function next(){
-                if(document.getElementById('next').checked){
-                    window.location='checkin1.html';
-                    return false;
-                }
-                return true;
-            }
-            </script>
+
   </body>
 </html>

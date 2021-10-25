@@ -1,16 +1,10 @@
-console.log("This is onboard.js");
+console.log("This is airport.js");
 
 var animation = anime.timeline({
-    autoplay: false
+    autoplay: true
 });
 
 animation
-.add({
-    targets: '#btn',
-    top: '1500px',
-    duration: 500,
-    easing: 'easeInOutSine'
-})
 
 
 .add({
@@ -20,23 +14,20 @@ animation
   easing: 'easeInOutSine'
 })
 
-
 .add({
-    targets: '#security',
-    bottom: '0px',
+    targets: '#att',
+    top: '0px',
     duration: 1000,
     easing: 'easeInOutSine'
 })
 
 
 .add({
-    targets: '#btn6',
-    marginRight: -300,
+    targets: '#btn5',
+    marginRight: -400,
     duration: 1000,
     easing: 'easeInOutBack'
 })
-
-
 
 
 

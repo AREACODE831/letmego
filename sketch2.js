@@ -7,8 +7,9 @@ function preload(){
 
 function setup() {
   let cnv = createCanvas(400, 400);
+  cnv.parent('sketchbook2');
+
   image(img, 0,0);
-  cnv.position(windowWidth/3.5);
 }
 
 
