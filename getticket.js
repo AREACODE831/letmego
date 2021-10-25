@@ -10,14 +10,14 @@ animation
 .add({
   targets: '#ticket',
   top: '0px',
-  duration: 1000,
+  duration: 4000,
   easing: 'easeInOutSine'
 })
 
 .add({
     targets: '#att',
     top: '0px',
-    duration: 1000,
+    duration: 3000,
     easing: 'easeInOutSine'
 })
 
